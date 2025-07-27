@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #F5F5DC; /* Écru / Ivoire */
+    color: #1A1A40; /* Bleu nuit profond */
+}
+header {
+    background: #A0522D; /* Terre ocre */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    position: relative;
+}
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+.disclaimer {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #3B7A57; /* Vert foncé */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.language-switcher {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.language-switcher a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.language-switcher .lang-active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.values {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    background: #FFD700; /* Jaune doré */
+    color: #1A1A40;
+}
+.value-block {
+    max-width: 30%;
+    min-width: 200px;
+    margin: 1rem;
+    text-align: center;
+}
+footer {
+    background: #8B0000; /* Rouge brique */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav.main-nav {
+    background: #3B7A57;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+nav.main-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+nav.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    padding: 2rem;
+    background: #f9f9f9;
+    color: #1A1A40;
+}
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.contact-item img {
+    margin-top: 5px;
+}
+
+nav.main-nav .join-button {
+    background-color: #3B7A57;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav.main-nav .join-button:hover {
+    background-color: #2e5f45;
+}
