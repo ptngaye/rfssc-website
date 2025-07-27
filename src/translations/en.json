@@ -1,0 +1,139 @@
+{
+  "disclaimer": "This fellowship is not an agency of, or controlled by, Rotary International",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "activities": "Activities",
+    "contact": "Contact"
+  },
+  "hero": {
+    "fellowship": "Rotary Fellowship of",
+    "culture": "Sub-Saharan Culture",
+    "title": "Celebrating Sub-Saharan Africa",
+    "description": "Discover the <span class=\"highlight\">exceptional cultural richness</span> of Sub-Saharan Africa through our international community of enthusiasts. Arts, music, traditions, gastronomy - let's explore this extraordinary heritage together in the spirit of service.",
+    "join": "Join Us",
+    "activities": "Our Activities"
+  },
+  "categories": {
+    "arts": "Arts & Expression",
+    "literature": "Literature & Languages",
+    "cuisine": "Cuisine & Gastronomy",
+    "fashion": "Fashion & Style",
+    "society": "Society & Traditions",
+    "news": "Cultural News"
+  },
+  "about": {
+    "title": "Our Mission",
+    "subtitle": "A Fellowship dedicated to Sub-Saharan Culture",
+    "description1": "Our international Fellowship unites enthusiasts from around the world in celebrating Sub-Saharan culture. We build intercultural bridges through art, music, literature and traditions from this extraordinary region.",
+    "description2": "In the spirit of service and intercultural exchange, we foster <strong>cultural encounters</strong>, mutual learning and understanding between peoples. Our members, from <strong>several countries</strong>, organize events, conferences and projects that showcase the richness of Sub-Saharan heritage.",
+    "solidarity": "<strong>Solidarity & Action:</strong> True to community service values, we also occasionally participate in <em>solidarity actions</em> to support communities through generosity and local initiatives, combining cultural passion with humanitarian commitment.",
+    "open": "<em>Open to all enthusiasts, our Fellowship welcomes anyone wishing to discover and share this fascinating culture.</em>",
+    "fellowship": "Fellowship",
+    "affiliated": "Affiliated with international service organization"
+  },
+  "stats": {
+    "members": "Fellowship Members",
+    "active": "Active Fellowships",
+    "countries": "Countries"
+  },
+  "activities": {
+    "title": "Our Cultural Activities",
+    "flavours": {
+      "title": "Flavours",
+      "description": "Showcasing the cultural richness of Sub-Saharan Africa"
+    },
+    "connections": {
+      "title": "Connections", 
+      "description": "Fostering cross-cultural encounters among Rotarians"
+    },
+    "solidarity": {
+      "title": "Solidarity",
+      "description": "Taking action to support communities through generosity and local initiatives"
+    },
+    "arts": {
+      "title": "Arts & Expression",
+      "description": "Traditional and contemporary music, visual arts (sculpture, painting, textiles), dance and live performance, crafts and design. Let's explore the full richness of Sub-Saharan artistic expression."
+    },
+    "literature": {
+      "title": "Literature & Languages",
+      "description": "Contemporary and oral literature, tales and narrative traditions, linguistic diversity. Author meetings, reading clubs and celebration of African narrative heritage."
+    },
+    "cuisine": {
+      "title": "Cuisine & Gastronomy",
+      "description": "Traditional dishes by region, culinary ingredients and techniques, food culture. Tastings, cooking classes and discovery of authentic flavors from Sub-Saharan Africa."
+    },
+    "fashion": {
+      "title": "Fashion & Style",
+      "description": "Traditional textiles (wax, kente, bogolan), contemporary African fashion, jewelry and accessories. Fashion shows, workshops and showcasing of modern and traditional African elegance."
+    },
+    "society": {
+      "title": "Society & Traditions",
+      "description": "Rituals and celebrations, philosophies and spiritualities, traditional and modern architecture. Conferences, cultural visits and exploration of Sub-Saharan societal foundations."
+    },
+    "news": {
+      "title": "Cultural News",
+      "description": "Festivals and events, portraits of contemporary artists, cultural news. Cultural monitoring, event promotion and highlighting emerging and established talents."
+    }
+  },
+  "governance": {
+    "title": "Organization & Governance",
+    "description": "The Fellowship is guided by a steering committee composed of Rotarians from diverse professional and cultural backgrounds. The committee oversees activities, membership coordination, and ensures alignment with Rotary values. Leadership roles are voluntary and reflect the spirit of service and inclusiveness at the heart of the Fellowship."
+  },
+  "documents": {
+    "title": "Governance Documents",
+    "bylaws": "Bylaws"
+  },
+  "team": {
+    "title": "Our Team",
+    "roles": {
+      "president": "Chair (President)",
+      "vicepresident": "Vice Chair (Vice President)",
+      "secretary": "Secretary",
+      "treasurer": "Treasurer",
+      "pr": "Public Relations Officer",
+      "outreach": "Outreach & Membership Officer",
+      "development": "Development Officer",
+      "legal": "Legal Advisor"
+    }
+  },
+  "contact": {
+    "title": "Join Our Community",
+    "intro": "Passionate about Sub-Saharan culture? Our Fellowship welcomes you with open arms. Together, let's celebrate the cultural richness of Sub-Saharan Africa and contribute to solidarity actions!",
+    "email": {
+      "title": "Email",
+      "subtitle": "Response within 24h"
+    },
+    "network": {
+      "title": "International Network",
+      "subtitle": "Members worldwide",
+      "events": "Virtual & in-person events"
+    },
+    "solidarity": {
+      "title": "Culture & Solidarity",
+      "subtitle": "Passion + Humanitarian action",
+      "spirit": "In the spirit of service"
+    },
+    "join": "Become a Member"
+  },
+  "footer": {
+    "fellowship": {
+      "title": "Our Fellowship",
+      "about": "About",
+      "activities": "Our activities",
+      "contact": "Contact us"
+    },
+    "organization": {
+      "title": "International Organization",
+      "program": "Fellowships Program",
+      "foundation": "Foundation"
+    },
+    "resources": {
+      "title": "Resources",
+      "calendar": "Event calendar",
+      "library": "Cultural library",
+      "gallery": "Photo gallery"
+    },
+    "copyright": "© 2025 The Proposed Rotary Fellowship of Sub-Saharan Culture. All rights reserved."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "disclaimer": "Cette amicale n'est pas une agence de, ou contrôlée par, Rotary International",
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "activities": "Activités",
+    "contact": "Contact"
+  },
+  "hero": {
+    "fellowship": "Rotary Fellowship of",
+    "culture": "Sub-Saharan Culture",
+    "title": "Célébrer l'Afrique Subsaharienne",
+    "description": "Découvrez la <span class=\"highlight\">richesse culturelle</span> exceptionnelle de l'Afrique subsaharienne à travers notre communauté internationale de passionnés. Arts, musiques, traditions, gastronomie - explorons ensemble ce patrimoine extraordinaire dans l'esprit du service.",
+    "join": "Nous rejoindre",
+    "activities": "Nos activités"
+  },
+  "categories": {
+    "arts": "Arts & Expression",
+    "literature": "Littérature & Langues",
+    "cuisine": "Cuisine & Gastronomie",
+    "fashion": "Mode & Style",
+    "society": "Société & Traditions",
+    "news": "Actualités Culturelles"
+  },
+  "about": {
+    "title": "Notre Mission",
+    "subtitle": "Une Amicale dédiée à la Culture Subsaharienne",
+    "description1": "Notre Amicale internationale unit des passionnés du monde entier autour de la célébration de la culture subsaharienne. Nous créons des ponts interculturels à travers l'art, la musique, la littérature et les traditions de cette région extraordinaire.",
+    "description2": "Dans l'esprit du service et de l'échange interculturel, nous favorisons les <strong>rencontres culturelles</strong>, l'apprentissage mutuel et la compréhension entre les peuples. Nos membres, issus de <strong>plusieurs pays</strong>, organisent des événements, des conférences et des projets qui mettent en valeur la richesse du patrimoine subsaharien.",
+    "solidarity": "<strong>Solidarité & Action :</strong> Fidèles aux valeurs de service communautaire, nous participons également à l'occasion à des <em>actions de solidarité</em> pour soutenir les communautés à travers la générosité et des initiatives locales, alliant passion culturelle et engagement humanitaire.",
+    "open": "<em>Ouverte à tous les passionnés, l'Amicale accueille chaque personne désireuse de découvrir et partager cette culture fascinante.</em>",
+    "fellowship": "Amicale",
+    "affiliated": "Affiliée à l'organisation internationale de service"
+  },
+  "stats": {
+    "members": "Membres d'Amicales",
+    "active": "Amicales Actives",
+    "countries": "Pays"
+  },
+  "activities": {
+    "title": "Nos Activités Culturelles",
+    "flavours": {
+      "title": "Saveurs",
+      "description": "Mettre en valeur la richesse culturelle de l'Afrique subsaharienne"
+    },
+    "connections": {
+      "title": "Connexions",
+      "description": "Favoriser les rencontres interculturelles entre Rotariens"
+    },
+    "solidarity": {
+      "title": "Solidarité", 
+      "description": "Agir pour soutenir les communautés par la générosité et les initiatives locales"
+    },
+    "arts": {
+      "title": "Arts & Expression",
+      "description": "Musique traditionnelle et contemporaine, arts visuels (sculpture, peinture, textiles), danse et spectacle vivant, artisanat et design. Explorons toute la richesse de l'expression artistique subsaharienne."
+    },
+    "literature": {
+      "title": "Littérature & Langues",
+      "description": "Littérature contemporaine et orale, contes et traditions narratives, diversité linguistique. Rencontres avec des auteurs, clubs de lecture et célébration du patrimoine narratif africain."
+    },
+    "cuisine": {
+      "title": "Cuisine & Gastronomie",
+      "description": "Plats traditionnels par région, ingrédients et techniques culinaires, culture alimentaire. Dégustations, cours de cuisine et découverte des saveurs authentiques d'Afrique subsaharienne."
+    },
+    "fashion": {
+      "title": "Mode & Style",
+      "description": "Textiles traditionnels (wax, kente, bogolan), mode contemporaine africaine, bijouterie et accessoires. Défilés, ateliers et mise en valeur de l'élégance africaine moderne et traditionnelle."
+    },
+    "society": {
+      "title": "Société & Traditions",
+      "description": "Rituels et célébrations, philosophies et spiritualités, architecture traditionnelle et moderne. Conférences, visites culturelles et exploration des fondements sociétaux subsahariens."
+    },
+    "news": {
+      "title": "Actualités Culturelles",
+      "description": "Festivals et événements, portraits d'artistes contemporains, actualité culturelle. Veille culturelle, promotion d'événements et mise en lumière des talents émergents et confirmés."
+    }
+  },
+  "governance": {
+    "title": "Organisation & Gouvernance",
+    "description": "L'Amicale est guidée par un comité directeur composé de Rotariens issus de milieux professionnels et culturels diversifiés. Le comité supervise les activités, la coordination des membres et assure l'alignement avec les valeurs du Rotary. Les rôles de direction sont bénévoles et reflètent l'esprit de service et d'inclusion au cœur de l'Amicale."
+  },
+  "documents": {
+    "title": "Documents de Gouvernance",
+    "bylaws": "Statuts"
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "roles": {
+      "president": "Président",
+      "vicepresident": "Vice-Président",
+      "secretary": "Secrétaire",
+      "treasurer": "Trésorier",
+      "pr": "Responsable Relations Publiques",
+      "outreach": "Responsable Développement & Adhésions",
+      "development": "Responsable Développement",
+      "legal": "Conseillère juridique"
+    }
+  },
+  "contact": {
+    "title": "Rejoignez Notre Communauté",
+    "intro": "Passionné par la culture subsaharienne ? L'Amicale vous accueille à bras ouverts. Ensemble, célébrons la richesse culturelle de l'Afrique subsaharienne et contribuons à des actions de solidarité !",
+    "email": {
+      "title": "Email",
+      "subtitle": "Réponse sous 24h"
+    },
+    "network": {
+      "title": "Réseau International",
+      "subtitle": "Membres dans le monde entier",
+      "events": "Événements virtuels & présentiels"
+    },
+    "solidarity": {
+      "title": "Culture & Solidarité",
+      "subtitle": "Passion + Action humanitaire",
+      "spirit": "Dans l'esprit de service"
+    },
+    "join": "Devenir Membre"
+  },
+  "footer": {
+    "fellowship": {
+      "title": "Notre Amicale",
+      "about": "À propos",
+      "activities": "Nos activités",
+      "contact": "Nous contacter"
+    },
+    "organization": {
+      "title": "Organisation Internationale",
+      "program": "Programme Amicales",
+      "foundation": "Fondation"
+    },
+    "resources": {
+      "title": "Ressources",
+      "calendar": "Calendrier des événements",
+      "library": "Bibliothèque culturelle",
+      "gallery": "Galerie photos"
+    },
+    "copyright": "© 2025 The Proposed Rotary Fellowship of Sub-Saharan Culture. Tous droits réservés."
+  }
+}
