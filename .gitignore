@@ -44,7 +44,6 @@ coverage/
 *.zip
 
 # Static site generators (si utilisé)
-public/
 .cache/
 hugo_stats.json
 .next/

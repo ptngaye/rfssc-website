@@ -38,7 +38,7 @@
     "countries": "Countries"
   },
   "activities": {
-    "title": "Our Cultural Activities",
+    "title": "Our Activities",
     "flavours": {
       "title": "Flavours",
       "description": "Showcasing the cultural richness of Sub-Saharan Africa"
@@ -134,6 +134,7 @@
       "library": "Cultural library",
       "gallery": "Photo gallery"
     },
-    "copyright": "© 2025 The Proposed Rotary Fellowship of Sub-Saharan Culture. All rights reserved."
+    "copyright": "© 2025 The Proposed Rotary Fellowship of Sub-Saharan Culture. All rights reserved.",
+    "disclaimer": "*This fellowship is not an agency of, or controlled by, Rotary International*"
   }
 }

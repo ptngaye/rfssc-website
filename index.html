@@ -3,82 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fellowship of Sub-Saharan Culture</title>
-    <meta name="description" content="Discover the exceptional cultural richness of Sub-Saharan Africa through our international Fellowship community">
+    <title data-i18n="hero.fellowship">Fellowship of Sub-Saharan Culture</title>
+    <meta name="description" data-i18n="hero.description" content="Discover the exceptional cultural richness of Sub-Saharan Africa through our international Fellowship community">
     <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-dXfHjhr+zY+KcYoU8a9JG3yOkIGSc9MRzX19A9C8p6UmpGbIHkM6fpUGCgUe4OZxPzT3vTctZ6sIXeh+qX8cXA==" referrerpolicy="no-referrer" rel="stylesheet"/>
-    <style>
-        .section {
-            max-width: 1140px;
-            margin: auto;
-            padding: 2rem 1rem;
-        }
-        .team-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-        .team-member {
-            background: #f8f8f8;
-            border-radius: 10px;
-            padding: 1rem;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-        .team-member img {
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
-            border-radius: 50%;
-            margin: 0 auto 1rem auto;
-        }
-        .team-member h3 {
-            min-height: 3rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-        .team-member p {
-            min-height: 3rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-        .team-social {
-            margin-top: auto;
-            padding-top: 10px;
-        }
-        .section h2 {
-            color: #1A1A40;
-            margin-bottom: 2rem;
-        }
-        .section p, .section ul {
-            font-size: 1.1rem;
-            line-height: 1.8;
-        }
-        .governance-docs ul {
-            list-style: none;
-            padding: 0;
-        }
-        .governance-docs li {
-            margin-bottom: 0.5rem;
-        }
-        .governance-docs a {
-            color: #3B7A57;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .governance-docs a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Disclaimer -->
@@ -90,7 +18,7 @@
     <nav class="nav">
         <div class="nav-content">
             <div class="logo">
-                <img src="images/rotary-fellowship-logo.png" alt="Rotary Fellowship of Sub-Saharan Culture" style="height: 50px;">
+                <img src="images/rotary-fellowship-logo.png" alt="Rotary Fellowship of Sub-Saharan Culture">
             </div>
             <div class="nav-links">
                 <a href="#home" data-i18n="nav.home">Home</a>
@@ -99,8 +27,8 @@
                 <a href="#contact" data-i18n="nav.contact">Contact</a>
             </div>
             <div class="language-selector">
-                <button onclick="setLanguage('en')" class="lang-btn active" data-lang="en">EN</button>
-                <button onclick="setLanguage('fr')" class="lang-btn" data-lang="fr">FR</button>
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="fr">FR</button>
             </div>
         </div>
     </nav>
@@ -110,12 +38,12 @@
         <div class="hero-content">
             <div class="hero-text">
                 <div class="fellowship-badge">
-                    <div class="fellowship-name" data-i18n="hero.fellowship">Fellowship of</div>
+                    <div class="fellowship-name" data-i18n="hero.fellowship">Rotary Fellowship of</div>
                     <div class="fellowship-subtitle" data-i18n="hero.culture">Sub-Saharan Culture</div>
                 </div>
                 <h1 data-i18n="hero.title">Celebrating Sub-Saharan Africa</h1>
                 <p class="description" data-i18n="hero.description">
-                    Discover the exceptional cultural richness of Sub-Saharan Africa 
+                    Discover the <span class="highlight">exceptional cultural richness</span> of Sub-Saharan Africa 
                     through our international community of enthusiasts. Arts, music, traditions, 
                     gastronomy - let's explore this extraordinary heritage together in the spirit of service.
                 </p>
@@ -171,34 +99,14 @@
                     organize events, conferences and projects that showcase the richness of Sub-Saharan heritage.
                 </p>
                 <br>
-                <p data-i18n="about.open">
-                    Open to all enthusiasts, our Fellowship welcomes anyone wishing to discover 
-                    and share this fascinating culture.
+                <p data-i18n="about.solidarity">
+                    <strong>Solidarity & Action:</strong> True to community service values, we also occasionally participate in <em>solidarity actions</em> to support communities through generosity and local initiatives, combining cultural passion with humanitarian commitment.
                 </p>
-            </div>
-            <div>
-                <!-- Cadre caché selon demande -->
-                <div class="rotary-info" style="display: none;">
-                    <div class="rotary-wheel"></div>
-                    <h4 data-i18n="about.fellowship">Fellowship</h4>
-                    <p class="affiliation" data-i18n="about.affiliated">
-                        Affiliated with international service organization
-                    </p>
-                    <div class="stats">
-                        <div class="stat">
-                            <div class="stat-number">57k</div>
-                            <div class="stat-label" data-i18n="stats.members">Fellowship Members</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat-number">100+</div>
-                            <div class="stat-label" data-i18n="stats.active">Active Fellowships</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat-number">150+</div>
-                            <div class="stat-label" data-i18n="stats.countries">Countries</div>
-                        </div>
-                    </div>
-                </div>
+                <br>
+                <p data-i18n="about.open">
+                    <em>Open to all enthusiasts, our Fellowship welcomes anyone wishing to discover 
+                    and share this fascinating culture.</em>
+                </p>
             </div>
         </div>
     </section>
@@ -231,6 +139,57 @@
                 </p>
             </div>
         </div>
+
+        <!-- Detailed Activities Grid -->
+        <!-- <div class="detailed-activities">
+            <div class="activity-card detailed">
+                <div class="activity-icon">🎨</div>
+                <h3 class="activity-title" data-i18n="activities.arts.title">Arts & Expression</h3>
+                <p class="activity-description" data-i18n="activities.arts.description">
+                    Traditional and contemporary music, visual arts (sculpture, painting, textiles), dance and live performance, crafts and design. Let's explore the full richness of Sub-Saharan artistic expression.
+                </p>
+            </div>
+
+            <div class="activity-card detailed">
+                <div class="activity-icon">📚</div>
+                <h3 class="activity-title" data-i18n="activities.literature.title">Literature & Languages</h3>
+                <p class="activity-description" data-i18n="activities.literature.description">
+                    Contemporary and oral literature, tales and narrative traditions, linguistic diversity. Author meetings, reading clubs and celebration of African narrative heritage.
+                </p>
+            </div>
+
+            <div class="activity-card detailed">
+                <div class="activity-icon">🍲</div>
+                <h3 class="activity-title" data-i18n="activities.cuisine.title">Cuisine & Gastronomy</h3>
+                <p class="activity-description" data-i18n="activities.cuisine.description">
+                    Traditional dishes by region, culinary ingredients and techniques, food culture. Tastings, cooking classes and discovery of authentic flavors from Sub-Saharan Africa.
+                </p>
+            </div>
+
+            <div class="activity-card detailed">
+                <div class="activity-icon">👗</div>
+                <h3 class="activity-title" data-i18n="activities.fashion.title">Fashion & Style</h3>
+                <p class="activity-description" data-i18n="activities.fashion.description">
+                    Traditional textiles (wax, kente, bogolan), contemporary African fashion, jewelry and accessories. Fashion shows, workshops and showcasing of modern and traditional African elegance.
+                </p>
+            </div>
+
+            <div class="activity-card detailed">
+                <div class="activity-icon">🏛️</div>
+                <h3 class="activity-title" data-i18n="activities.society.title">Society & Traditions</h3>
+                <p class="activity-description" data-i18n="activities.society.description">
+                    Rituals and celebrations, philosophies and spiritualities, traditional and modern architecture. Conferences, cultural visits and exploration of Sub-Saharan societal foundations.
+                </p>
+            </div>
+
+            <div class="activity-card detailed">
+                <div class="activity-icon">🎪</div>
+                <h3 class="activity-title" data-i18n="activities.news.title">Cultural News</h3>
+                <p class="activity-description" data-i18n="activities.news.description">
+                    Festivals and events, portraits of contemporary artists, cultural news. Cultural monitoring, event promotion and highlighting emerging and established talents.
+                </p>
+            </div>
+        </div> -->
     </section>
 
     <!-- Organization & Governance Section -->
@@ -248,6 +207,8 @@
     </section>
 
     <!-- Our Team Section -->
+
+    <!-- Our Team Section -->
     <section class="section">
         <h2 class="section-title" data-i18n="team.title">Our Team</h2>
         <div class="team-grid">
@@ -255,9 +216,9 @@
                 <img alt="Paterne Gaye Guingnido" src="images/team/president.jpg"/>
                 <h3>Paterne GAYE GUINGNIDO</h3>
                 <p><strong data-i18n="team.roles.president">Chair (President)</strong></p>
-                <div class="team-social" style="margin-top: 10px;">
-                    <a href="https://www.linkedin.com/in/paterne-gaye-guingnido" style="margin: 0 8px;" target="_blank">
-                        <svg fill="#0077B5" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                <div class="team-social">
+                    <a href="https://www.linkedin.com/in/paterne-gaye-guingnido" target="_blank" aria-label="LinkedIn Profile">
+                        <svg fill="#0077B5" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
                     </a>
                 </div>
             </div>
@@ -266,20 +227,20 @@
                 <img alt="Vignilé Sinodobe AGLI" src="images/team/vice_president.jpg"/>
                 <h3>Vignilé Sinodobe AGLI</h3>
                 <p><strong data-i18n="team.roles.vicepresident">Vice Chair (Vice President)</strong></p>
-                <div class="team-social" style="margin-top: 10px;">
-                    <a href="https://www.linkedin.com/in/vignil%C3%A9-sinodobe-agli-1654919b/" style="margin: 0 8px;" target="_blank">
-                        <svg fill="#0077B5" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                <div class="team-social">
+                    <a href="https://www.linkedin.com/in/vignil%C3%A9-sinodobe-agli-1654919b/" target="_blank" aria-label="LinkedIn Profile">
+                        <svg fill="#0077B5" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
                     </a>
                 </div>
             </div>
 
             <div class="team-member">
-                <img alt="Vincent ZOSSOU" src="images/team/vincent_zossou.jpg"/>
-                <h3>Vincent ZOSSOU</h3>
+                <img alt="Hélène LAVILLE" src="images/team/secretary.jpg"/>
+                <h3>Hélène LAVILLE</h3>
                 <p><strong data-i18n="team.roles.secretary">Secretary</strong></p>
-                <div class="team-social" style="margin-top: 10px;">
-                    <a href="#" style="margin: 0 8px;" target="_blank">
-                        <svg fill="#0077B5" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                <div class="team-social">
+                    <a href="https://www.linkedin.com/in/hlgg/" target="_blank" aria-label="LinkedIn Profile">
+                        <svg fill="#0077B5" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
                     </a>
                 </div>
             </div>
@@ -288,9 +249,9 @@
                 <img alt="Crépin Fadjo" src="images/team/treasurer.jpg"/>
                 <h3>Crépin FADJO</h3>
                 <p><strong data-i18n="team.roles.treasurer">Treasurer</strong></p>
-                <div class="team-social" style="margin-top: 10px;">
-                    <a href="https://www.linkedin.com/in/crepin-fadjo-770007140" style="margin: 0 8px;" target="_blank">
-                        <svg fill="#0077B5" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                <div class="team-social">
+                    <a href="https://www.linkedin.com/in/fadcrepin/" target="_blank" aria-label="LinkedIn Profile">
+                        <svg fill="#0077B5" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
                     </a>
                 </div>
             </div>
@@ -299,9 +260,9 @@
                 <img alt="Christelle AGO FAIHUN" src="images/team/communications_officer.jpg"/>
                 <h3>Christelle AGO FAIHUN</h3>
                 <p><strong data-i18n="team.roles.pr">Public Relations Officer</strong></p>
-                <div class="team-social" style="margin-top: 10px;">
-                    <a href="https://www.linkedin.com/in/christelle-faihun-ago-9564537a/" style="margin: 0 8px;" target="_blank">
-                        <svg fill="#0077B5" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                <div class="team-social">
+                    <a href="https://www.linkedin.com/in/christelle-faihun-ago-9564537a/" target="_blank" aria-label="LinkedIn Profile">
+                        <svg fill="#0077B5" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
                     </a>
                 </div>
             </div>
@@ -310,34 +271,34 @@
                 <img alt="Jeanne Vito" src="images/team/outreach_membership_officer.jpg"/>
                 <h3>Jeanne VITO</h3>
                 <p><strong data-i18n="team.roles.outreach">Outreach & Membership Officer</strong></p>
-                <div class="team-social" style="margin-top: 10px;">
-                    <a href="https://www.linkedin.com/in/jeanne-vito" style="margin: 0 8px;" target="_blank">
-                        <svg fill="#0077B5" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                <div class="team-social">
+                    <a href="https://www.linkedin.com/in/jeanne-vito" target="_blank" aria-label="LinkedIn Profile">
+                        <svg fill="#0077B5" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
                     </a>
                 </div>
             </div>
 
             <div class="team-member">
-                <img alt="Hélène LAVILLE" src="images/team/development_officer.jpg"/>
-                <h3>Hélène LAVILLE</h3>
-                <p><strong data-i18n="team.roles.development">Development Officer</strong></p>
-                <div class="team-social" style="margin-top: 10px;">
-                    <a href="https://www.linkedin.com/in/hlgg/" style="margin: 0 8px;" target="_blank">
-                        <svg fill="#0077B5" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="team-member">
-                <img alt="Ida KINTOSSOU" src="images/team/secretary.jpg"/>
+                <img alt="Ida KINTOSSOU" src="images/team/legal_advisor.jpg"/>
                 <h3>Ida KINTOSSOU</h3>
-                <p><strong data-i18n="team.roles.legal">Conseillère juridique</strong></p>
-                <div class="team-social" style="margin-top: 10px;">
-                    <a href="https://www.linkedin.com/in/ida-florence-kintossou-akplogan-m-b-a-41028035/" style="margin: 0 8px;" target="_blank">
-                        <svg fill="#0077B5" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                <p><strong data-i18n="team.roles.legal">Legal Advisor</strong></p>
+                <div class="team-social">
+                    <a href="https://www.linkedin.com/in/ida-florence-kintossou-akplogan-m-b-a-41028035/" target="_blank" aria-label="LinkedIn Profile">
+                        <svg fill="#0077B5" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
                     </a>
                 </div>
             </div>
+            
+            <div class="team-member">
+                <img alt="Vincent ZOSSOU" src="images/team/development_officer.jpg"/>
+                <h3>Vincent ZOSSOU</h3>
+                <p><strong data-i18n="team.roles.development_officer">Development Officer</strong></p>
+                <div class="team-social">
+                    <a href="https://www.linkedin.com/in/vincent-zossou-8a4a48144" target="_blank" aria-label="LinkedIn Profile">
+                        <svg fill="#0077B5" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                    </a>
+                </div>
+            </div>            
         </div>
     </section>
 
@@ -346,29 +307,70 @@
         <h2 class="section-title" data-i18n="contact.title">Join Our Community</h2>
         <div class="contact-content">
             <p class="contact-intro" data-i18n="contact.intro">
-                Passionate about Sub-Saharan culture? Our Fellowship welcomes you with open arms.
+                Passionate about Sub-Saharan culture? Our Fellowship welcomes you with open arms. Together, let's celebrate the cultural richness of Sub-Saharan Africa and contribute to solidarity actions!
             </p>
             
             <div class="contact-info">
                 <div class="contact-item">
-                    <div class="contact-icon">📧</div>
-                    <h4 data-i18n="contact.email.title">Email</h4>
-                    <p>contact@subsaharanculture.org</p>
-                </div>
-                
-                <div class="contact-item">
-                    <div class="contact-icon">🌐</div>
+                    <div class="contact-icon">🌍</div>
                     <h4 data-i18n="contact.network.title">International Network</h4>
                     <p data-i18n="contact.network.subtitle">Members worldwide</p>
+                    <p data-i18n="contact.network.events">Virtual & in-person events</p>
+                </div>
+            
+                <div class="contact-item">
+                    <div class="contact-icon">💝</div>
+                    <div class="contact-icon">💝</div>
+                    <h4 data-i18n="contact.solidarity.title">Culture & Solidarity</h4>
+                    <p data-i18n="contact.solidarity.subtitle">Passion + Humanitarian action</p>
+                    <p data-i18n="contact.solidarity.spirit">In the spirit of service</p>
                 </div>
             </div>
             
-            <a href="https://forms.gle/VacoVapNHiUuWJNx7" target="_blank" class="join-button" data-i18n="contact.join">
+            <a href="https://forms.gle/fiyfm2m4Xpi3HUdb6" target="_blank" class="join-button" data-i18n="contact.join">
                 Become a Member
             </a>
         </div>
     </section>
 
-    <script type="module" src="src/main.ts"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-i18n="footer.fellowship.title">Our Fellowship</h3>
+                <ul>
+                    <li><a href="#about" data-i18n="footer.fellowship.about">About</a></li>
+                    <li><a href="#activities" data-i18n="footer.fellowship.activities">Our activities</a></li>
+                    <li><a href="#contact" data-i18n="footer.fellowship.contact">Contact us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3 data-i18n="footer.organization.title">International Organization</h3>
+                <ul>
+                    <li><a href="#" data-i18n="footer.organization.program">Fellowships Program</a></li>
+                    <li><a href="#" data-i18n="footer.organization.foundation">Foundation</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3 data-i18n="footer.resources.title">Resources</h3>
+                <ul>
+                    <li><a href="#" data-i18n="footer.resources.calendar">Event calendar</a></li>
+                    <li><a href="#" data-i18n="footer.resources.library">Cultural library</a></li>
+                    <li><a href="#" data-i18n="footer.resources.gallery">Photo gallery</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="copyright" data-i18n="footer.copyright">© 2025 The Proposed Rotary Fellowship of Sub-Saharan Culture. All rights reserved.</p>
+            <p class="disclaimer-footer" data-i18n="footer.disclaimer">*This fellowship is not an agency of, or controlled by, Rotary International*</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
